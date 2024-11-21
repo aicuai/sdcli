@@ -1,11 +1,14 @@
-# README 
+# sdcli
+Command line tools for Stability AI API 
 
-SD3_SIC_Image_Creator
+Share via https://j.aicu.ai/SaiImgBat
+
+|[English](README.md)|[日本語](README_ja.md)|
+
+## SD3_SIC_Image_Creator
 
 
-## Share via https://j.aicu.ai/SaiImgBat
-
-# これは何？
+## これは何？
 
 
 Stable Diffusion 3.0 API Image Creator / Stable Image Core API Image Creatorのreadme
@@ -13,29 +16,29 @@ Stable Diffusion 3.0 API Image Creator / Stable Image Core API Image Creatorのr
 以下の説明をお読みになってからお使いください
 なお、このプログラムを用いて発生したいかなる障害に対して責任は負いませんのでご了承ください。
 
-# 機能
+## 機能
 
 Stable Diffusion 3.0 とStable Image Core のAPIを用いて画像を生成することができます
 2つのバッチファイルでできることは異なります
 
-## Stable Diffusion 3.0 API Image Creatorでできること
+### Stable Diffusion 3.0 API Image Creatorでできること
 
 ・同じプロンプトでの連続画像生成
 ・文字も含めた生成
 
-## Stable Image Core API Image Creatorでできること
+### Stable Image Core API Image Creatorでできること
 
 ・同じプロンプトで様々なプリセットスタイルの画像生成
 
 
-# 使い方
+## 使い方
 
-## (1)はじめにやること
+### (1)はじめにやること
 
 このバッチファイルを使って画像生成するにはAPIキーが必要です
 バッチファイルを起動する前に https://platform.stability.ai/account/keys にアクセスしてAPIキーを取得してください
 
-## (2)APIキーやプロンプトの設定
+### (2)APIキーやプロンプトの設定
 
 プロンプトなどの設定はそれぞれのテキストファイルから行います
 設定するにはメモ帳などのテキストエディタで編集してください
@@ -65,7 +68,7 @@ SIC_setting.txt が設定ファイルです
 生成サイクル数（生成サイクル数x17枚生成されます）
 APIキー
 
-## (3)バッチファイルの起動
+### (3)バッチファイルの起動
 
 バッチファイルはダブルクリックで起動できます
 ・Stable Diffusion 3.0 API Image Creatorの場合
@@ -105,7 +108,7 @@ SD3_imageフォルダに保存されています
 SIC_imageフォルダに保存されています
 
 
-# FAQ
+## FAQ
 
 [Q1]バッチファイルを実行したら「WindowsによってPCが保護されました」と表示される
 [A1]バッチファイルに署名がされていないためです
