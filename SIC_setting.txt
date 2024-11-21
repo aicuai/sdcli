@@ -1,0 +1,14 @@
+;プロンプト(ここに出力したい画像の文章を入力)
+PROMPT=urban tokyo bayfront skyline residences ad luxury super rich visual
+;ネガティブプロンプト(ここに出力したくない文章を入力)
+NEG_PROMPT=NSFW
+; アスペクト比(以下が使用できます　1:1 16:9 1:1 21:9 2:3 3:2 4:5 5:4 9:16 9:21)
+ASPECT_RATIO=16:9
+; 出力するフォーマット(以下が使用できます　jpeg png webp)
+OUTPUT_FORMAT=png
+; 生成サイクル数（生成サイクル数x17枚生成されます）
+IMG_NUM=1
+
+
+; APiキー(https://platform.stability.ai/account/keys から取得できます)
+STABILITY_API_KEY=
