@@ -1,7 +1,14 @@
 # sdcli
 Command line tools for Stability AI API 
 
-Share via https://j.aicu.ai/SaiImgBat
+こちらのURLで配布されていたツールをメンテしています
+
+- <https://j.aicu.ai/SaiImgBat>  
+
+関連記事
+
+- [高品質なAI画像を大量生産！ Stability AIのAPIをWindowsのバッチファイルで呼び出せるようにしてみた【窓の杜:生成AIストリーム】](https://forest.watch.impress.co.jp/docs/serial/aistream/1621329.html)
+
 
 |[English](README.md)|[日本語](README_ja.md)|
 
@@ -80,7 +87,9 @@ SIC_IMG_Creator.batをダブルクリックして起動してください
 ## (4)画像の生成
 
 それぞれのバッチファイルを起動すると、現在の設定が表示されます
-[例]--------------------------------------------------------------------------------
+
+
+```
 Stable Image Core API Image Creatorへようこそ！
 このバッチファイルでは同じプロンプトで複数のスタイルの画像を連続で生成できます
 以下の設定で出力します
@@ -92,8 +101,11 @@ Stable Image Core API Image Creatorへようこそ！
 合計出力枚数: 17
 この設定で生成しますか？ (同じプロンプトで生成する場合、上書きされてしまいます！ )
 （Y / N）
-------------------------------------------------------------------------------------
+```
+
 この設定で生成する場合は[y]と入力して[Enter]キーを押してください
+
+* 現在は日本語表示ですが、英語に統一するかもです。
 
 ## (5)生成された画像の確認
 
