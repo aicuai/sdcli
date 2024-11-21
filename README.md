@@ -83,8 +83,7 @@ Double-click `SIC_IMG_Creator.bat`.
 When you run each batch file, the current settings will be displayed.
 
 
-
-[Example]--------------------------------------------------------------------------------
+```
 Welcome to the Stable Image Core API Image Creator!
 This batch file allows you to generate multiple styles of images in succession at the same prompt
 Output with the following settings
@@ -96,7 +95,8 @@ Number of output cycles: 1
 Total number of outputs: 17
 Do you want to generate with these settings? (If you generate with the same prompt, it will be overwritten!)
 (Y/N)
-------------------------------------------------------------------------------------
+```
+
 If you want to generate with these settings, enter [y] and press [Enter]
 
 ## (5) Checking the generated image
